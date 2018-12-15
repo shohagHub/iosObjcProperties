@@ -15,6 +15,7 @@
 		89C5638C21C4338D008C1A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5638B21C4338D008C1A66 /* main.m */; };
 		89C5639621C4338D008C1A66 /* ObjcPropertiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5639521C4338D008C1A66 /* ObjcPropertiesTests.m */; };
 		89C563A121C4338D008C1A66 /* ObjcPropertiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C563A021C4338D008C1A66 /* ObjcPropertiesUITests.m */; };
+		89C563B021C433AC008C1A66 /* Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C563AF21C433AC008C1A66 /* Properties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		89C5639C21C4338D008C1A66 /* ObjcPropertiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcPropertiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C563A021C4338D008C1A66 /* ObjcPropertiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcPropertiesUITests.m; sourceTree = "<group>"; };
 		89C563A221C4338D008C1A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C563AE21C433AC008C1A66 /* Properties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Properties.h; sourceTree = "<group>"; };
+		89C563AF21C433AC008C1A66 /* Properties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Properties.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				89C5638721C4338D008C1A66 /* LaunchScreen.storyboard */,
 				89C5638A21C4338D008C1A66 /* Info.plist */,
 				89C5638B21C4338D008C1A66 /* main.m */,
+				89C563AE21C433AC008C1A66 /* Properties.h */,
+				89C563AF21C433AC008C1A66 /* Properties.m */,
 			);
 			path = ObjcProperties;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C563B021C433AC008C1A66 /* Properties.m in Sources */,
 				89C5638121C43383008C1A66 /* ViewController.m in Sources */,
 				89C5638C21C4338D008C1A66 /* main.m in Sources */,
 				89C5637E21C43383008C1A66 /* AppDelegate.m in Sources */,
